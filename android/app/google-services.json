@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "899815932795",
+    "firebase_url": "https://sideproject-9b273.firebaseio.com",
+    "project_id": "sideproject-9b273",
+    "storage_bucket": "sideproject-9b273.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899815932795:android:6270c57d7cbb648f4173de",
+        "android_client_info": {
+          "package_name": "com.kickshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "899815932795-01n1ru2s2ec3v8gs6sipe8v2ghufuqcv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA697AEKTlCcn5TiS5yVN-LRUDImyXrKJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "899815932795-01n1ru2s2ec3v8gs6sipe8v2ghufuqcv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
