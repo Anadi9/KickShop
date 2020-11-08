@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native';
 import { Button, Divider, Layout, Text, TopNavigation } from '@ui-kitten/components';
 import { ThemeContext } from '../theme/theme-context';
 import auth from '@react-native-firebase/auth';
+import { GoogleSignin } from '@react-native-community/google-signin';
 
 
 export default function HomeScreen({ navigation }) {
@@ -32,6 +33,10 @@ export default function HomeScreen({ navigation }) {
   }
 
   useEffect(() => {
+    GoogleSignin.configure({
+      webClientId: '899815932795-01n1ru2s2ec3v8gs6sipe8v2ghufuqcv.apps.googleusercontent.com',
+    });
+
     const subscriber = auth().onAuthStateChanged(onAuthStateChanged);
     return subscriber; // unsubscribe on unmount
   }, []);

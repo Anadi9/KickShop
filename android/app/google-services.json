@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "899815932795-721849f8crabtkaml4ibir80qe3rfjsd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kickshop",
+            "certificate_hash": "4b376ceaae358a55636144d8efe655583e6bb35f"
+          }
+        },
+        {
           "client_id": "899815932795-01n1ru2s2ec3v8gs6sipe8v2ghufuqcv.apps.googleusercontent.com",
           "client_type": 3
         }
